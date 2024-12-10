@@ -3,7 +3,7 @@ function TodoItem(props){
     return(
       <li>
         <span>V</span>
-        <h1>{props.text}</h1>
+        <p>{props.text}</p>
         <span>X</span>
       </li>
     );
